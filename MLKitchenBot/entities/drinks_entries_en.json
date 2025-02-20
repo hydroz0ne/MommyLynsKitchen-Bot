@@ -1,0 +1,51 @@
+[
+  {
+    "value": "coffee",
+    "synonyms": [
+      "coffee"
+    ]
+  },
+  {
+    "value": "coffee jelly",
+    "synonyms": [
+      "coffee jelly"
+    ]
+  },
+  {
+    "value": "calamansi",
+    "synonyms": [
+      "calamansi"
+    ]
+  },
+  {
+    "value": "tea",
+    "synonyms": [
+      "tea"
+    ]
+  },
+  {
+    "value": "milk tea",
+    "synonyms": [
+      "milk tea"
+    ]
+  },
+  {
+    "value": "coconut juice",
+    "synonyms": [
+      "coconut juice",
+      "coconut water"
+    ]
+  },
+  {
+    "value": "avocado shake",
+    "synonyms": [
+      "avocado shake"
+    ]
+  },
+  {
+    "value": "water",
+    "synonyms": [
+      "water"
+    ]
+  }
+]

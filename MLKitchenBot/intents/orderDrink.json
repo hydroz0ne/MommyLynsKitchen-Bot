@@ -1,0 +1,103 @@
+{
+  "id": "d02e2e32-1460-4cb6-832c-c1563f16ff3b",
+  "name": "orderDrink",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "drink-order",
+          "lifespan": 5
+        },
+        {
+          "name": "orderDrink-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3e0a9d69-b83d-4144-9514-4e59402195da",
+          "name": "drinks",
+          "required": true,
+          "dataType": "@drinks",
+          "value": "$drinks",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What drink would you like to order? The current available drinks are:\n•\tCoffee\n•\tCoffee Jelly\n•\tCalamansi Juice\n•\tTea\n•\tMilk Tea\n•\tCoconut Juice\n•\tAvocado Shake\n•\tWater"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "96dec51c-9de8-477c-b3ed-567bbdff2288",
+          "name": "drinksize",
+          "required": true,
+          "dataType": "@drinkSize",
+          "value": "$drinksize",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What cup size would you like?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "085789c9-88e6-4a17-a1da-d3f00ca37fb5",
+          "name": "amount",
+          "required": true,
+          "dataType": "@amount",
+          "value": "$amount",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many orders for the drink?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alright, your order is $amount cup(s) of $drinksize $drinks. Correct?",
+            "Your current order is $amount cup(s) of $drinksize $drinks. Is that correct?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

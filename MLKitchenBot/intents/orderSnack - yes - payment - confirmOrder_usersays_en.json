@@ -1,0 +1,70 @@
+[
+  {
+    "id": "bc2cd8fe-26f4-4c8a-9c0a-9db31d459dfb",
+    "data": [
+      {
+        "text": "you can contact me on ",
+        "userDefined": false
+      },
+      {
+        "text": "971501234567",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "382936bf-0bdf-40ac-a7d6-6dd81230de5e",
+    "data": [
+      {
+        "text": "my phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "0501234567",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a42541b0-9ccc-4ed7-bc23-4a40c99388c3",
+    "data": [
+      {
+        "text": "0501234567",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06fed204-1c42-41a5-8a63-510be8ec6341",
+    "data": [
+      {
+        "text": "971501234567",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

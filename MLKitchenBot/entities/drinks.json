@@ -1,0 +1,9 @@
+{
+  "id": "1440c741-f5e4-4d16-b596-2477240dee3a",
+  "name": "drinks",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

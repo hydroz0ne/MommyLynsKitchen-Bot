@@ -1,0 +1,176 @@
+[
+  {
+    "id": "032f2c5d-d45f-469f-96ba-739a645e2b19",
+    "data": [
+      {
+        "text": "i want drinks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e05b26e-2204-4805-ba2b-47848cfa2e49",
+    "data": [
+      {
+        "text": "i want to drink",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6cf959a-99ee-4e9d-9892-dda98ad5bf65",
+    "data": [
+      {
+        "text": "i want to order ",
+        "userDefined": false
+      },
+      {
+        "text": "tea",
+        "meta": "@drinks",
+        "alias": "drinks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "673e0808-a5c5-4569-9115-6ca61ce29cd1",
+    "data": [
+      {
+        "text": "i want ",
+        "userDefined": false
+      },
+      {
+        "text": "coffee",
+        "meta": "@drinks",
+        "alias": "drinks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3f80cab0-ec08-4aa5-88b8-031681ea73cf",
+    "data": [
+      {
+        "text": "3",
+        "meta": "@amount",
+        "alias": "amount",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "large",
+        "meta": "@drinkSize",
+        "alias": "drinksize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "coffee",
+        "meta": "@drinks",
+        "alias": "drinks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2289fd9b-6a2a-4b84-8a42-bd42206be7bb",
+    "data": [
+      {
+        "text": "large",
+        "meta": "@drinkSize",
+        "alias": "drinksize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "milk tea",
+        "meta": "@drinks",
+        "alias": "drinks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9cf2f8c6-f52c-487f-88bd-94a24a52f83a",
+    "data": [
+      {
+        "text": "medium",
+        "meta": "@drinkSize",
+        "alias": "drinksize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "coffee",
+        "meta": "@drinks",
+        "alias": "drinks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "572532ad-f588-4819-add2-d1e9bfff5271",
+    "data": [
+      {
+        "text": "small",
+        "meta": "@drinkSize",
+        "alias": "drinksize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "coffee jelly",
+        "meta": "@drinks",
+        "alias": "drinks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

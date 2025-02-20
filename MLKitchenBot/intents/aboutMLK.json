@@ -1,0 +1,40 @@
+{
+  "id": "353d0c0d-aaf8-457f-a25d-146a394bde7a",
+  "name": "aboutMLK",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "aboutMLK-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Mommy Lyn\u0027s Kitchen (MLK) offers a delightful array of authentic Filipino snacks and foods, bringing the taste of the Philippines to your table. From traditional treats to savory delicacies, each bite is a flavorful journey that captures the essence of Filipino cuisine. With Mommy Lyn\u0027s Kitchen, savor the warmth and love of homemade Filipino dishes crafted with care and tradition.\n\n-------- Type \"menu\" / \"order\" to start ordering!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "072260a6-df06-47bf-a9e9-41297df2fc2e",
+  "parentId": "0be1d0d9-a9cf-4d37-950a-be2bb37cd7de",
+  "rootParentId": "d02e2e32-1460-4cb6-832c-c1563f16ff3b",
+  "name": "orderDrink - yes - payment",
+  "auto": true,
+  "contexts": [
+    "orderDrink-yes-followup",
+    "drink-order-yes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderDrink.orderDrink-yes.orderDrink-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "orderDrink-yes-payment-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "695b6b98-c2e1-4453-94a1-7a439dc0eb68",
+          "name": "paymethod",
+          "required": true,
+          "dataType": "@payMethod",
+          "value": "$paymethod",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How would you like to pay?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1827cfc2-f7d1-43cd-b2b6-309d68090f58",
+          "name": "buildingnum",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$buildingnum",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your building number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b14cd856-7f53-4973-bc15-441f1cc0641f",
+          "name": "flat",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$flat",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your flat number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "698702f3-1927-406a-9829-89ffe773d8b8",
+          "name": "street",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$street",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What street is the drop point?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, your payment method is by $payMethod. The address to deliver is in: Building $buildingnum (flat $flat) in $street. Can you please provide your phone number for inquiries?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

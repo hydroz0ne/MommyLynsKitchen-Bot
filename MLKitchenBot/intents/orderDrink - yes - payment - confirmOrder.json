@@ -1,0 +1,69 @@
+{
+  "id": "330d6bfc-0f2c-40f8-8d37-bfd16ecac18c",
+  "parentId": "072260a6-df06-47bf-a9e9-41297df2fc2e",
+  "rootParentId": "d02e2e32-1460-4cb6-832c-c1563f16ff3b",
+  "name": "orderDrink - yes - payment - confirmOrder",
+  "auto": true,
+  "contexts": [
+    "orderDrink-yes-payment-followup",
+    "drink-order"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderDrink.orderDrink-yes.orderDrink-yes-custom.orderDrink-yes-payment-custom",
+      "affectedContexts": [
+        {
+          "name": "drink-order",
+          "lifespan": 5
+        },
+        {
+          "name": "orderDrink-yes-payment-address-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d31f8f47-70ee-44be-8c11-e257643c2512",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide the phone number for any inquiries."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alright, your final order is #drink-order.amount #drink-order.drinkSize cup(s) of #drink-order.drinks and you\u0027ll pay by #drink-order.paymethod. The delivery address is: Building #drink-order.buildingnum (flat #drink-order.flat) in #drink-order.street. Thank you for ordering!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

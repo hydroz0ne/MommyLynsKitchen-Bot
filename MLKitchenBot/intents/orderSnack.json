@@ -1,0 +1,84 @@
+{
+  "id": "fd0b4e0d-4235-434d-86b3-6dcdb6492754",
+  "name": "orderSnack",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "orderSnack-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "snack-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0f4d6b62-a3f8-4479-b206-6063977f7ffa",
+          "name": "snacks",
+          "required": true,
+          "dataType": "@snacks",
+          "value": "$snacks",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What snack would you like to order? The current available foods are: \n•\tPandesal (Regular/Ube)\n•\tSpanish Bread\n•\tGarlic Bread\n•\tMamon\n•\tPan De Coco\n•\tBiko\n•\tSuman\n•\tPuto\n•\tTuron\n•\tBuko Pandan\n•\tFruit Salad"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "084375ff-2123-4e2a-be18-2f3714fcb605",
+          "name": "amount",
+          "required": true,
+          "dataType": "@amount",
+          "value": "$amount",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many servings would you like?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The order is $amount serving(s) of $snacks. Is that correct?",
+            "Your order is $amount serving(s) of $snacks, is that correct?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

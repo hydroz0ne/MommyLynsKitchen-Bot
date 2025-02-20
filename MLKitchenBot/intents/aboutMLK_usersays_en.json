@@ -1,0 +1,93 @@
+[
+  {
+    "id": "bdf64369-eaf7-4490-886a-9277a3a1ff45",
+    "data": [
+      {
+        "text": "about Mommy Lyn\u0027s Kitchen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de35ec1a-f340-4afd-b1f3-9deeeb5872ab",
+    "data": [
+      {
+        "text": "about MLK",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d9d5f4ee-1e36-40fd-a993-996df9cda00b",
+    "data": [
+      {
+        "text": "Could you describe the products available at Mommy Lyn\u0027s Kitchen?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "373d2a77-bdd0-4216-a395-1ef0eab48684",
+    "data": [
+      {
+        "text": "Tell me more about MLK and its offerings.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6bfc55ae-6264-46c8-b3dd-5398495243b0",
+    "data": [
+      {
+        "text": "What kind of snacks and foods does Mommy Lyn\u0027s Kitchen sell?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3435820-4275-4248-ac24-19ce7ddedd48",
+    "data": [
+      {
+        "text": "Can you tell me about Mommy Lyn\u0027s Kitchen?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b96b4db3-6373-4c87-90cb-168ac8378125",
+    "data": [
+      {
+        "text": "What does Mommy Lyn\u0027s Kitchen offer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

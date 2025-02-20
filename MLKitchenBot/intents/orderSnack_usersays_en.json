@@ -1,0 +1,124 @@
+[
+  {
+    "id": "b25a4cc8-896a-44b3-9fd3-bbcf49de7ddd",
+    "data": [
+      {
+        "text": "i want to order food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9c15ed8-5030-4be8-93b7-14a27cda8ccb",
+    "data": [
+      {
+        "text": "5",
+        "meta": "@amount",
+        "alias": "amount",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pandesal",
+        "meta": "@snacks",
+        "alias": "snacks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68ff89f8-8ab4-471d-9d31-26dcbef9701c",
+    "data": [
+      {
+        "text": "can i have ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@amount",
+        "alias": "amount",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "buko pandan",
+        "meta": "@snacks",
+        "alias": "snacks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2ef2bed-1e45-4dfa-835a-4c20fee599b8",
+    "data": [
+      {
+        "text": "one",
+        "meta": "@amount",
+        "alias": "amount",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "puto",
+        "meta": "@snacks",
+        "alias": "snacks",
+        "userDefined": false
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9cb254a2-f781-44d2-9fcd-f212fe5c017b",
+    "data": [
+      {
+        "text": "can i order snacks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fb6a7341-7fd5-4e33-bd8d-3e9a31bc5c83",
+    "data": [
+      {
+        "text": "i want snacks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

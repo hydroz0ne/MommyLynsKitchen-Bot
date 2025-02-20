@@ -1,0 +1,131 @@
+{
+  "id": "8f6a2d91-2562-45ec-bf52-1d38bcd621c4",
+  "parentId": "d8c25d7c-3671-41d6-9dd4-74461ff2c1b1",
+  "rootParentId": "fd0b4e0d-4235-434d-86b3-6dcdb6492754",
+  "name": "orderSnack - yes - payment",
+  "auto": true,
+  "contexts": [
+    "orderSnack-yes-followup",
+    "snack-order",
+    "snack-order-yes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderSnack.orderSnack-yes.orderSnack-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "orderSnack-yes-payment-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "snack-order",
+          "lifespan": 5
+        },
+        {
+          "name": "snack-order-yes",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "41e8da77-26e0-4c0d-a10c-4a69d18afcfa",
+          "name": "paymethod",
+          "required": true,
+          "dataType": "@payMethod",
+          "value": "$paymethod",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How would you like to pay?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fbbea056-2cba-494a-b156-0288a61e96de",
+          "name": "buildingnum",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$buildingnum",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the building number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "59d98aab-5b49-4d29-8493-f82cb0c235f5",
+          "name": "flat",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$flat",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the flat number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d76161f3-d829-4530-82f4-123f5dca5966",
+          "name": "street",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$street",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What street is the delivery point?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, your payment method is by $payMethod. The address to deliver is in: Building $buildingnum (flat $flat) in $street. Can you please provide your phone number for inquiries?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

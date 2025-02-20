@@ -1,0 +1,9 @@
+{
+  "id": "e5558460-aa1e-4839-b3df-0ee979aefa72",
+  "name": "drinkSize",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

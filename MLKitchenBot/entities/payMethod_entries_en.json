@@ -1,0 +1,21 @@
+[
+  {
+    "value": "cash",
+    "synonyms": [
+      "cash",
+      "bills",
+      "notes",
+      "money"
+    ]
+  },
+  {
+    "value": "bank transfer",
+    "synonyms": [
+      "online payment",
+      "paypal",
+      "tabby",
+      "bank transfer",
+      "card"
+    ]
+  }
+]

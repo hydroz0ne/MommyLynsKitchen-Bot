@@ -1,0 +1,41 @@
+{
+  "id": "43d54b34-d798-4ac5-b495-2c104f80cbea",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hello! I am MLK-Bot! Type \"menu\" / \"order\" / \"about MLK\" to start!",
+            "Good day! I am MLK-Bot, please type \"menu\" / \"order\" / \"about MLK\" to start!",
+            "Mabuhay! I\u0027m MLK-Bot. You may type \"menu\" / \"order\" / \"about MLK\" to start."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

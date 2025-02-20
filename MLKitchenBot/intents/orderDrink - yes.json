@@ -1,0 +1,51 @@
+{
+  "id": "0be1d0d9-a9cf-4d37-950a-be2bb37cd7de",
+  "parentId": "d02e2e32-1460-4cb6-832c-c1563f16ff3b",
+  "rootParentId": "d02e2e32-1460-4cb6-832c-c1563f16ff3b",
+  "name": "orderDrink - yes",
+  "auto": true,
+  "contexts": [
+    "drink-order",
+    "orderDrink-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderDrink.orderDrink-yes",
+      "affectedContexts": [
+        {
+          "name": "orderDrink-yes-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "drink-order-yes",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, your #drink-order.amount #drink-order.drinkSize cup(s) of #drink-order.drinks will be prepared. How would you like to pay? Cash or bank transfer?",
+            "We\u0027re getting your #drink-order.amount #drink-order.drinkSize cup(s) of #drink-order.drinks ready. Would you like to pay by cash or bank transfer?",
+            "The #drink-order.amount #drink-order.drinkSize cup(s) of #drink-order.drinks you\u0027ve ordered is being prepared. How will you be paying? Cash or bank transfer?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

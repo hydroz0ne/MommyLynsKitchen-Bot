@@ -1,0 +1,35 @@
+{
+  "id": "a52d5b14-5717-4a09-96d2-d70e6d97f530",
+  "name": "menuMLK",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "MENU\n\n---------SNACKS: \n•\tPandesal (Regular/Ube)\n•\tSpanish Bread\n•\tGarlic Bread\n•\tMamon\n•\tPan De Coco\n•\tBiko\n•\tSuman\n•\tPuto\n•\tTuron\n•\tBuko Pandan\n•\tFruit Salad\n---------DRINKS: \n•\tCoffee\n•\tCoffee Jelly\n•\tCalamansi Juice\n•\tTea\n•\tMilk Tea\n•\tCoconut Juice\n•\tAvocado Shake\n•\tWater\n\n---------To start ordering, type a snack or drink you would like to order!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

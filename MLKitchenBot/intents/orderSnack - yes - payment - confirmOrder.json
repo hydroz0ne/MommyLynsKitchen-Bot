@@ -1,0 +1,60 @@
+{
+  "id": "19ad6b8b-d6a6-4559-bf20-b3cbcb8e81f5",
+  "parentId": "8f6a2d91-2562-45ec-bf52-1d38bcd621c4",
+  "rootParentId": "fd0b4e0d-4235-434d-86b3-6dcdb6492754",
+  "name": "orderSnack - yes - payment - confirmOrder",
+  "auto": true,
+  "contexts": [
+    "orderSnack-yes-payment-followup",
+    "snack-order"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderSnack.orderSnack-yes.orderSnack-yes-custom.orderSnack-yes-payment-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5e62a200-8bd0-4893-8d6d-ae276b5d1648",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the phone number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alright, your final order is #snack-order.amount #snack-order.snacks and you\u0027ll pay by #snack-order.paymethod. The address is building #snack-order.buildingnum (flat #snack-order.flat) in #snack-order.street. Thank you for ordering!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

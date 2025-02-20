@@ -1,0 +1,9 @@
+{
+  "id": "dafe820f-c47f-4a23-ad44-1259e286f953",
+  "name": "payMethod",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

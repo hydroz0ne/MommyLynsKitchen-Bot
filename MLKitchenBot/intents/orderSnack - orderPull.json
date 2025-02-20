@@ -1,0 +1,40 @@
+{
+  "id": "10521eda-c6fa-487b-a7d2-3d1e92e46933",
+  "parentId": "fd0b4e0d-4235-434d-86b3-6dcdb6492754",
+  "rootParentId": "fd0b4e0d-4235-434d-86b3-6dcdb6492754",
+  "name": "orderSnack - orderPull",
+  "auto": true,
+  "contexts": [
+    "orderSnack-followup",
+    "snack-order"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderSnack.orderSnack-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, your order has been retracted. What drink would you like to order?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

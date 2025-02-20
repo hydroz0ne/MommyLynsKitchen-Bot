@@ -1,0 +1,49 @@
+{
+  "id": "d8c25d7c-3671-41d6-9dd4-74461ff2c1b1",
+  "parentId": "fd0b4e0d-4235-434d-86b3-6dcdb6492754",
+  "rootParentId": "fd0b4e0d-4235-434d-86b3-6dcdb6492754",
+  "name": "orderSnack - yes",
+  "auto": true,
+  "contexts": [
+    "orderSnack-followup",
+    "snack-order"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderSnack.orderSnack-yes",
+      "affectedContexts": [
+        {
+          "name": "orderSnack-yes-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "snack-order-yes",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, your #snack-order.amount serving(s) of #snack-order.snacks will be prepared. How would you like to pay? Cash or bank transfer?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
